@@ -13,10 +13,9 @@ steps:
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'Free Trial(cf22936c-bad4-409e-a7b5-1101cb2e3d75)'
-    appType: 'webApp'
+    appType: 'webAppLinux'
     appName: 'mikedevops1'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    deploymentMethod: 'auto'
 # Build and test ASP.NET Core projects targeting .NET Core.
 # Add steps that run tests, create a NuGet package, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
