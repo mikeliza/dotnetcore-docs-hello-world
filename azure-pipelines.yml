@@ -14,7 +14,7 @@ steps:
   inputs:
     azureSubscription: 'Free Trial(cf22936c-bad4-409e-a7b5-1101cb2e3d75)'
     appType: 'webAppLinux'
-    appName: 'mikedevops1'
+    appName: 'mikelizdevops'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
 # Build and test ASP.NET Core projects targeting .NET Core.
 # Add steps that run tests, create a NuGet package, deploy, and more:
